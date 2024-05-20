@@ -25,9 +25,13 @@ docker images
 ```
 docker run hello-world
 ```
+Останавливаем контейнер:
+```
+docker rm -v *ID контейнера* 
+```
 Удаляем контейнер:
 ```
-docker rm *имя или ID контейнера*
+docker rmi *ID контейнера*
 ```
 
 
